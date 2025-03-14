@@ -1,0 +1,12 @@
+name: "Fuzzy Service"
+version: "1.0"
+slug: "fuzzy_service"
+description: "Run fuzzy logic with scikit-fuzzy inside HA OS"
+startup: application
+boot: auto
+init: false
+homeassistant_api: false
+host_network: true
+options: {}
+schema: {}
+image: "local/fuzzy_service"
